@@ -18,13 +18,14 @@ namespace MadLibs.Controllers
     }
 
     [Route("/personStory")]
-    public ActionResult PersonStory(string name1, string verb1, string adverb1, string adjective1) 
+    public ActionResult PersonStory(string name1, string verb1, string adverb1, string adjective1, string pronoun1) 
     { 
       MadLibsVariable myMadLibsVariable = new MadLibsVariable();
       myMadLibsVariable.Name1 = name1;
       myMadLibsVariable.Verb1 = verb1;
       myMadLibsVariable.Adverb1 = adverb1;
       myMadLibsVariable.Adjective1 = adjective1;
+      myMadLibsVariable.Pronoun1 = pronoun1;
       return View(myMadLibsVariable); 
     }
 
