@@ -44,7 +44,7 @@ namespace MadLibs.Controllers
       myMadLibsVariable.Verb1 = verb1;
       myMadLibsVariable.Animal1 = animal1;
       myMadLibsVariable.Adjective1 = adjective1;
-      return View();
+      return View(myMadLibsVariable);
     }
   }
 }
