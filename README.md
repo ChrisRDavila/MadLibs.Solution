@@ -1,8 +1,8 @@
-# (Application Name)
+# (MadLibs.Solution)
 
-#### (Brief Description of Application)
+#### (More practice with MVC structure Csharp project)
 
-#### By (Your Name Here)
+#### By (Christopher Davila)
 
 ## Technologies Used
 
